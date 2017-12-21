@@ -7,19 +7,63 @@
 //
 
 import UIKit
+import ScrollingFollowView
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var searchScrollingFollowView: ScrollingFollowView!
+    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var sellScrollingFollowView: ScrollingFollowView!
+    
+    // SFV means Scrolling Follow View.
+    @IBOutlet weak var searchSFVTopConstraint: NSLayoutConstraint!
+    @IBOutlet weak var sellSFVBottomConstraint: NSLayoutConstraint!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let searchSFVHeight = searchScrollingFollowView.frame.size.height
+        let statusBarHeight = UIApplication.shared.statusBarFrame.size.height
+        searchScrollingFollowView.setup(
+            constraint: searchSFVTopConstraint,
+            maxFollowPoint: searchSFVHeight + statusBarHeight,
+            minFollowPoint: 0)
+        
+        let sellSFVHeight = sellScrollingFollowView.frame.size.height
+        sellScrollingFollowView.setup(
+            constraint: sellSFVBottomConstraint,
+            maxFollowPoint: sellSFVHeight,
+            minFollowPoint: 0)
     }
+}
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+extension ViewController: UIScrollViewDelegate {
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        searchScrollingFollowView.didScroll(scrollView)
+        sellScrollingFollowView.didScroll(scrollView)
     }
+}
 
+extension ViewController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        return CGSize(width: collectionView.frame.size.width/2 - 20, height: 190)
+    }
+}
 
+extension ViewController: UICollectionViewDataSource {
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 30
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
+        
+        return cell
+    }
 }
 

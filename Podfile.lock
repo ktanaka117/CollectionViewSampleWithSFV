@@ -1,0 +1,12 @@
+PODS:
+  - ScrollingFollowView (1.1.1)
+
+DEPENDENCIES:
+  - ScrollingFollowView
+
+SPEC CHECKSUMS:
+  ScrollingFollowView: 135102baad0e35fb34b2a2eaeabcb60c4d0955c8
+
+PODFILE CHECKSUM: cc48b94f6b0a58834b22cad3a4f5ffd3b3ded10e
+
+COCOAPODS: 1.3.1

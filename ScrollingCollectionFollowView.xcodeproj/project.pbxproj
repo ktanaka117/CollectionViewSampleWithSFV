@@ -13,6 +13,9 @@
 		957A58A41FEB2E7500B0E652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957A58A31FEB2E7500B0E652 /* Assets.xcassets */; };
 		957A58A71FEB2E7500B0E652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957A58A51FEB2E7500B0E652 /* LaunchScreen.storyboard */; };
 		957A58B21FEB2E7500B0E652 /* ScrollingCollectionFollowViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A58B11FEB2E7500B0E652 /* ScrollingCollectionFollowViewTests.swift */; };
+		957A58BD1FEBA16600B0E652 /* AwesomeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A58BC1FEBA16600B0E652 /* AwesomeCollectionCell.swift */; };
+		A7B862351D41C33F79C683D4 /* Pods_ScrollingCollectionFollowView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CBB8E8D3BA180A1CE13B175 /* Pods_ScrollingCollectionFollowView.framework */; };
+		ADC927D54F61E4536B76DB30 /* Pods_ScrollingCollectionFollowViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29B75FD72C6E07637499A55 /* Pods_ScrollingCollectionFollowViewTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CBB8E8D3BA180A1CE13B175 /* Pods_ScrollingCollectionFollowView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollingCollectionFollowView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B85DE13706A8B315532DBA3 /* Pods-ScrollingCollectionFollowViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollingCollectionFollowViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollingCollectionFollowViewTests/Pods-ScrollingCollectionFollowViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24E4380BF0112C759341065A /* Pods-ScrollingCollectionFollowView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollingCollectionFollowView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollingCollectionFollowView/Pods-ScrollingCollectionFollowView.debug.xcconfig"; sourceTree = "<group>"; };
+		487B8C03583716F2E9390BF7 /* Pods-ScrollingCollectionFollowView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollingCollectionFollowView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollingCollectionFollowView/Pods-ScrollingCollectionFollowView.release.xcconfig"; sourceTree = "<group>"; };
 		957A58991FEB2E7500B0E652 /* ScrollingCollectionFollowView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollingCollectionFollowView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957A589C1FEB2E7500B0E652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		957A589E1FEB2E7500B0E652 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,9 @@
 		957A58AD1FEB2E7500B0E652 /* ScrollingCollectionFollowViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingCollectionFollowViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		957A58B11FEB2E7500B0E652 /* ScrollingCollectionFollowViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingCollectionFollowViewTests.swift; sourceTree = "<group>"; };
 		957A58B31FEB2E7500B0E652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		957A58BC1FEBA16600B0E652 /* AwesomeCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeCollectionCell.swift; sourceTree = "<group>"; };
+		D29B75FD72C6E07637499A55 /* Pods_ScrollingCollectionFollowViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollingCollectionFollowViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AC061BFC785A817B77A8F2 /* Pods-ScrollingCollectionFollowViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollingCollectionFollowViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollingCollectionFollowViewTests/Pods-ScrollingCollectionFollowViewTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B862351D41C33F79C683D4 /* Pods_ScrollingCollectionFollowView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC927D54F61E4536B76DB30 /* Pods_ScrollingCollectionFollowViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +74,8 @@
 				957A589B1FEB2E7500B0E652 /* ScrollingCollectionFollowView */,
 				957A58B01FEB2E7500B0E652 /* ScrollingCollectionFollowViewTests */,
 				957A589A1FEB2E7500B0E652 /* Products */,
+				AA88175F946B792536AF01D1 /* Pods */,
+				B1543B880ACDC1F8F4621EC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +93,7 @@
 			children = (
 				957A589C1FEB2E7500B0E652 /* AppDelegate.swift */,
 				957A589E1FEB2E7500B0E652 /* ViewController.swift */,
+				957A58BC1FEBA16600B0E652 /* AwesomeCollectionCell.swift */,
 				957A58A01FEB2E7500B0E652 /* Main.storyboard */,
 				957A58A31FEB2E7500B0E652 /* Assets.xcassets */,
 				957A58A51FEB2E7500B0E652 /* LaunchScreen.storyboard */,
@@ -96,6 +111,26 @@
 			path = ScrollingCollectionFollowViewTests;
 			sourceTree = "<group>";
 		};
+		AA88175F946B792536AF01D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24E4380BF0112C759341065A /* Pods-ScrollingCollectionFollowView.debug.xcconfig */,
+				487B8C03583716F2E9390BF7 /* Pods-ScrollingCollectionFollowView.release.xcconfig */,
+				1B85DE13706A8B315532DBA3 /* Pods-ScrollingCollectionFollowViewTests.debug.xcconfig */,
+				E8AC061BFC785A817B77A8F2 /* Pods-ScrollingCollectionFollowViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1543B880ACDC1F8F4621EC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CBB8E8D3BA180A1CE13B175 /* Pods_ScrollingCollectionFollowView.framework */,
+				D29B75FD72C6E07637499A55 /* Pods_ScrollingCollectionFollowViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 957A58B61FEB2E7500B0E652 /* Build configuration list for PBXNativeTarget "ScrollingCollectionFollowView" */;
 			buildPhases = (
+				9F84665091085AAB06E390D2 /* [CP] Check Pods Manifest.lock */,
 				957A58951FEB2E7500B0E652 /* Sources */,
 				957A58961FEB2E7500B0E652 /* Frameworks */,
 				957A58971FEB2E7500B0E652 /* Resources */,
+				BEC79D136AFD6942E7C7B661 /* [CP] Embed Pods Frameworks */,
+				5B526911BDB919FFFD722550 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 957A58B91FEB2E7500B0E652 /* Build configuration list for PBXNativeTarget "ScrollingCollectionFollowViewTests" */;
 			buildPhases = (
+				2444634BB3E496BB0F825F5F /* [CP] Check Pods Manifest.lock */,
 				957A58A91FEB2E7500B0E652 /* Sources */,
 				957A58AA1FEB2E7500B0E652 /* Frameworks */,
 				957A58AB1FEB2E7500B0E652 /* Resources */,
+				13209FCD42EA50735D51065D /* [CP] Embed Pods Frameworks */,
+				429863B714FAB6F3C45BF751 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +235,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13209FCD42EA50735D51065D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollingCollectionFollowViewTests/Pods-ScrollingCollectionFollowViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2444634BB3E496BB0F825F5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollingCollectionFollowViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		429863B714FAB6F3C45BF751 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollingCollectionFollowViewTests/Pods-ScrollingCollectionFollowViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B526911BDB919FFFD722550 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollingCollectionFollowView/Pods-ScrollingCollectionFollowView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F84665091085AAB06E390D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollingCollectionFollowView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC79D136AFD6942E7C7B661 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ScrollingCollectionFollowView/Pods-ScrollingCollectionFollowView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ScrollingFollowView/ScrollingFollowView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollingFollowView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollingCollectionFollowView/Pods-ScrollingCollectionFollowView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		957A58951FEB2E7500B0E652 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -201,6 +344,7 @@
 			files = (
 				957A589F1FEB2E7500B0E652 /* ViewController.swift in Sources */,
 				957A589D1FEB2E7500B0E652 /* AppDelegate.swift in Sources */,
+				957A58BD1FEBA16600B0E652 /* AwesomeCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,10 +495,11 @@
 		};
 		957A58B71FEB2E7500B0E652 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24E4380BF0112C759341065A /* Pods-ScrollingCollectionFollowView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K75PB9VKYT;
+				DEVELOPMENT_TEAM = 3ASJECAERZ;
 				INFOPLIST_FILE = ScrollingCollectionFollowView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ktanaka.ScrollingCollectionFollowView;
@@ -366,10 +511,11 @@
 		};
 		957A58B81FEB2E7500B0E652 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 487B8C03583716F2E9390BF7 /* Pods-ScrollingCollectionFollowView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K75PB9VKYT;
+				DEVELOPMENT_TEAM = 3ASJECAERZ;
 				INFOPLIST_FILE = ScrollingCollectionFollowView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ktanaka.ScrollingCollectionFollowView;
@@ -381,6 +527,7 @@
 		};
 		957A58BA1FEB2E7500B0E652 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B85DE13706A8B315532DBA3 /* Pods-ScrollingCollectionFollowViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +545,7 @@
 		};
 		957A58BB1FEB2E7500B0E652 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8AC061BFC785A817B77A8F2 /* Pods-ScrollingCollectionFollowViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
